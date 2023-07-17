@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left-side">
+        <h1 class="result">Your Result</h1>
+        <div class="circle">
+          <span class="over">76</span>
+          <span class="all">of 100</span>
+        </div>
+        <h1 class="value">Great</h1>
+        <p class="message">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="right-side">
+        <div class="summary">Summary</div>
+        <div class="points" style="color: hsl(0, 100%, 67%)">
+          <img src="assets/images/icon-reaction.svg" />Reaction
+          <span class="summary-score"
+            >80 / <span class="overall">100 </span></span
+          >
+        </div>
+        <div class="points" style="color: hsl(39, 100%, 56%)">
+          <img src="assets/images/icon-memory.svg" class="memory" />Memory
+          <span class="summary-score">
+            92 / <span class="overall"> 100</span>
+          </span>
+        </div>
+        <div class="points" style="color: hsl(166, 100%, 37%)">
+          <img src="assets/images/icon-verbal.svg" class="verbal" />Verbal
+          <span class="summary-verbal">
+            61 / <span class="overall">100 </span></span
+          >
+        </div>
+        <div class="points" style="color: hsl(234, 85%, 45%)">
+          <img src="assets/images/icon-visual.svg" class="visual" />Visual
+          <span class="summary-visual"
+            >72 / <span class="overall"> 100</span>
+          </span>
+        </div>
+
+        <button class="btn-continue">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
